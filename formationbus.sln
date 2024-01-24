@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab-servicebus", "lab-servicebus", "{31CAB82B-1984-44A9-B9F5-C392C6B9A16E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5CB29229-C711-4C63-9435-841C592F5927}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalacticGrid", "lab-servicebus\src\GalacticGrid\GalacticGrid.csproj", "{529C986F-0BDC-4E46-BC86-D9977C3A9B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529C986F-0BDC-4E46-BC86-D9977C3A9B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529C986F-0BDC-4E46-BC86-D9977C3A9B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529C986F-0BDC-4E46-BC86-D9977C3A9B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529C986F-0BDC-4E46-BC86-D9977C3A9B68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CB29229-C711-4C63-9435-841C592F5927} = {31CAB82B-1984-44A9-B9F5-C392C6B9A16E}
+		{529C986F-0BDC-4E46-BC86-D9977C3A9B68} = {5CB29229-C711-4C63-9435-841C592F5927}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAA9FEA1-8107-4EEF-A9F3-2E1EA9F11C6E}
+	EndGlobalSection
+EndGlobal
