@@ -1,0 +1,8 @@
+POST http://localhost:7071/api/SauvergarderDansBus
+Content-Type: application/json
+
+{
+    "model": "SunHarvester 3000",
+    "capacity": 200,
+    "manufacturer": "SolsticePower"    
+}

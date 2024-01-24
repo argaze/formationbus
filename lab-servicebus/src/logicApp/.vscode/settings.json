@@ -1,0 +1,14 @@
+{
+    "azureLogicAppsStandard.deploySubpath": ".",
+    "azureLogicAppsStandard.projectLanguage": "JavaScript",
+    "azureLogicAppsStandard.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.suppressProject": true,
+    "azurite.location": "/home/codespace/.azurelogicapps/.azurite",
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/codespace/.azurelogicapps/dependencies/DotNetSDK:${env:PATH}"
+    },
+    "omnisharp.dotNetCliPaths": [
+        "/home/codespace/.azurelogicapps/dependencies/DotNetSDK"
+    ]
+}
